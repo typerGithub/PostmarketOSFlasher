@@ -25,7 +25,7 @@ if linux == "Lenovo A6000":
             os.system("curl -O https://images.postmarketos.org/bpo/v24.06/lenovo-a6000/gnome-mobile/20240710-2046/20240710-2046-postmarketOS-v24.06-gnome-mobile-2-lenovo-a6000.img.xz")
         for i in tqdm(x, desc="Unarchiving image"):
             pass
-            os.system("unxz --keep 20210202-0502-postmarketOS-edge-plasma-mobile-3.2-samsung-a5lte-mainline-modem.img.xz")
+            os.system("unxz --keep 20240619-1424-postmarketOS-v24.06-phosh-22.3-lenovo-a6000.img")
         print("Please power phone in to Ik2nd mode")
         for i in tqdm(x, desc="Flashing POSTmarketOS image"):
             pass
