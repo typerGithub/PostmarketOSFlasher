@@ -45,6 +45,7 @@ if linux == "Lenovo A6000":
         for i in tqdm(x, desc="Unarchiving image"):
             os.system("unxz --keep 20240619-1424-postmarketOS-v24.06-phosh-22.3-lenovo-a6000.img")
         print("Please power phone in to Ik2nd mode")
+        time.sleep(8)
         for i in tqdm(x, desc="Flashing POSTmarketOS image"):
     os.system("fastboot flash userdata 20240619-1420-postmarketOS-v24.06-gnome-mobile-2-lenovo-a6000.img")
         for i in tqdm(x, desc="Erasing folder system on phone"):
@@ -67,6 +68,7 @@ if platform == "linux":
         for i in tqdm(x, desc="Unarchiving image"):
             os.system("unxz --keep 20210202-0502-postmarketOS-edge-plasma-mobile-3.2-samsung-a5lte-mainline-modem.img.xz")
         print("Please power phone in to Ik2nd mode")
+        time.sleep(8)
         for i in tqdm(x, desc="Flashing POSTmarketOS image"):
             os.system("fastboot flash userdata 20240619-1420-postmarketOS-v24.06-gnome-mobile-2-lenovo-a6000.img")
         for i in tqdm(x, desc="Erasing folder system on phone"):
