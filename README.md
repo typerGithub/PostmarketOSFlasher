@@ -37,19 +37,3 @@ curl -O https://github.com/typerGithub/PostmarketOSFlasher/releases/download/v1.
 ```text
 fastboot boot lk2nd.img
 ```
-Потом вводите команду:
-
-```text
-fastboot flash userdata ваш-образ.img
-```
-Команда чтобы стереть папку system на телефоне:
-
-```text
-fastboot erase system
-```
-
-Потом перезагружаем телефон:
-
-```text
-fastboot reboot
-```
